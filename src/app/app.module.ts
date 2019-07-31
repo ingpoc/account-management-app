@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { UserdetailsComponent } from './userdetails/userdetails.component';
 import { CustomerService } from './service/customer.service';
 import { HttpClientModule } from '@angular/common/http';
+import { AuthService } from './service/auth.service';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [CustomerService],
+  providers: [CustomerService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
