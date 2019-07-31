@@ -10,7 +10,7 @@ export class AuthService {
 
     getCustomers() {
 
-        return this.http.get<Customer[]>('http://localhost:8080/customers');
+        return this.http.get<Customer[]>('http://localhost:8080/customer');
     }
 
 }

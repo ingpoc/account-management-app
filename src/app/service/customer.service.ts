@@ -15,11 +15,11 @@ export class CustomerService {
     new Customer('Mickel', '367 Fidler Little', 'mahesh@gmail.com')
   ];
 
-  //constructor(private authService: AuthService) { }
+  constructor(private authService: AuthService) { }
 
   public fetchCustomers() {
-    // return this.authService.getCustomers();
-    return this.customers.slice();
+     return this.authService.getCustomers();
+    // return this.customers.slice();
   }
 
 }

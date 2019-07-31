@@ -15,9 +15,9 @@ export class UserdetailsComponent implements OnInit {
   constructor(private customerService: CustomerService) { }
 
   ngOnInit() {
-     this.customers = this.customerService.fetchCustomers();
+     //this.customers = this.customerService.fetchCustomers();
 
-    /* this.authObserver = this.customerService.fetchCustomers();
+     this.authObserver = this.customerService.fetchCustomers();
     this.authObserver.subscribe(resData => {
       this.customers = resData;
 
@@ -28,7 +28,7 @@ export class UserdetailsComponent implements OnInit {
 
       }
     );
-*/
+
 
 
   }
