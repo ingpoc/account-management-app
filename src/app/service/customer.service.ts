@@ -11,7 +11,8 @@ export class CustomerService {
     new Customer('Gurushran Gupta', '367 Fidler Little', 'gurusharan@gmail.com'),
     new Customer('Priyanka Gupta', '367 Fidler Little', 'priyanka@gmail.com'),
     new Customer('Rakesh Kundu', '367 Fidler Little', 'rakesh@gmail.com'),
-    new Customer('Mahesh Pardeshi', '367 Fidler Little', 'mahesh@gmail.com')
+    new Customer('Mahesh Pardeshi', '367 Fidler Little', 'mahesh@gmail.com'),
+    new Customer('Mickel', '367 Fidler Little', 'mahesh@gmail.com')
   ];
 
   //constructor(private authService: AuthService) { }
