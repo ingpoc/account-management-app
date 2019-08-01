@@ -1,0 +1,19 @@
+.accounts {
+  display: inline-block;
+    background-color: #ff6200;
+    height: 180px;
+    width: 180px;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 31px;
+    border-radius: 150px!important;
+  }
+
+  .accounts:hover{
+    border: 1px rgb(68, 31, 6) solid;
+}
